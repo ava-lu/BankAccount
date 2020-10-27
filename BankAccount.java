@@ -7,8 +7,10 @@ public class BankAccount{
   public BankAccount(int accountID, String password) {
     // initialize
     balance = 0;
-    accountID = a;
-    password = p;
+  }
+
+  public double getBalance() {
+    return balance;
   }
 
 }
