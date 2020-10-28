@@ -4,6 +4,7 @@ public class Tester {
     System.out.println(first.getBalance());
     System.out.println(first.getAccountID());
     first.deposit(500);
+    first.withdraw(600);
     System.out.println(first.getBalance());
   }
 
