@@ -3,5 +3,7 @@ public class Tester {
     BankAccount first = new BankAccount(67, "password");
     System.out.println(first.getBalance());
     System.out.println(first.getAccountID());
+    System.out.println(first.getpass());
   }
+
 }
