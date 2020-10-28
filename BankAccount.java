@@ -38,5 +38,9 @@ public class BankAccount{
       return true;
     }
   }
+  public String toString() {
+    String str = accountID + "\t" + balance;
+    return str;
+  }
 
 }
