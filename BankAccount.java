@@ -4,13 +4,18 @@ public class BankAccount{
   private int accountID;
   private String password;
   // constructor
-  public BankAccount(int accountID, String password) {
+  public BankAccount(int a, String p) {
     // initialize
     balance = 0;
+    accountID = a;
+    password = p;
   }
 
   public double getBalance() {
     return balance;
   }
 
+  public int getAccountID() {
+    return accountID;
+  }
 }
