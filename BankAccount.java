@@ -55,7 +55,7 @@ public class BankAccount{
       // should never happen
       System.out.println("ERROR!");
     }
+    return false;
   }
-  return false;
 
 }
